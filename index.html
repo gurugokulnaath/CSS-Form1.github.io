@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.background {
+  background: url(pexels-pixabay-62307\ \(1\).jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 200px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+ body {
+      background-color:; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; 
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .login-box {
+      background-color: #ccc; 
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+      width: 300px;
+      text-align: center;
+    }
+    .login-box h2 {
+      margin-bottom: 20px;
+    }
+    .login-box label {
+      display: block;
+      text-align: left;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    .login-box input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+    }
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .login-box button:hover {
+      background-color: #333;
+    }
+</style>
+</head>
+<body>
+
+  <div class="background">
+  <div class="transbox">
+  <div class="login-box">
+    <h2>Login</h2>
+    <form>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required><br><br>
+      <center>
+      <button type="submit">Login</button>
+      </center>
+    </form>
+  </div>
+  </div>
+  </div>
+
+</body>
+</html>
+
